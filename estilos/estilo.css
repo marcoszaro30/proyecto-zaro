@@ -1,0 +1,314 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(10, 10, 10);
+    align-items: center;
+    padding: 10px;
+    
+    top: 0;
+    width: 100%;
+    box-shadow: 3px 3px 10px;
+    
+    
+}
+.logo img{
+    height: 50px;
+    width: 300px;
+
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+nav a{
+    padding: 10px;
+}
+nav a:hover{
+    color: rgb(134, 131, 131);
+}
+nav{
+    margin-right: 50px;
+}
+h1{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+/*tarjetas*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 100%;
+	height: 210px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+/* fin tarjetas*/
+section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+main p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+p{
+    font-weight: 600;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    
+}
+.redes img{
+    width: 100px;
+    height: 100px;
+}
+footer{
+    background-color:rgb(134, 131, 131) ;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+footer h4{
+    color: white
+}
+.contacto{
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
+.formulario{
+    padding-top: 30px;
+    text-align: center;
+    display: table-caption;
+    padding-left: 550px;
+    padding-bottom: 30px;
+
+}
+ form{
+    padding-bottom: 10px;
+
+}
+iframe{
+    width: 100%;
+}
+.quienesSomos{
+    padding: 50px 200px 50px 200px;
+    background-color: #24303c;
+    color: white;
+    height: 500px;
+}
+.quienesSomos p{
+    padding-top: 30px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.cuenta{
+    width: 400px;
+    background-color: #24303c;
+    margin: auto;
+    margin-top: 200px;
+    padding: 30px;
+    border-radius: 4px;
+    display: block;
+    color: white;
+    box-shadow: 3px 3px 10px #000; 
+}
+.cuenta h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.controles{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    
+    color: white;
+
+}
+.cuenta p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cuenta a{
+    color: white;
+    text-decoration: none;
+}
+
+.cuenta a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.botones{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+
+}
+
+.servicio{
+    padding: 100px 200px 50px 200px;
+    background-color: #24303c;
+    color: white;
+}
+.servicio p{
+    text-align: center;
+    
+}
+.tecnico{
+    padding-top: 30px;
+    line-height: 30px;
+    
+}
+.trabajos{
+    text-align: center;
+}
+.brindamos{
+    text-align: center;
+    margin:0;
+    padding: 0;
+    margin-top: 10px;
+}
+.telefono{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contacto{
+    width: 400px;
+    background-color: #24303c;
+    margin: auto;
+    margin-top: 200px;
+    padding: 30px;
+    border-radius: 4px;
+    display: block;
+    color: white;
+    box-shadow: 3px 3px 10px #000; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+.formulario{
+    width: 100%;
+    background: #24303c;
+    padding: 0;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    color: white;
+    display: inline-grid;
+    
+    
+}
+.botoncontacto{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+textarea{
+    background-color: #24303c;
+
+}
+
+/* media querys*/
+
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+    a {
+        display: block;
+    }
+    header{
+        height: 300px;
+    }
+}

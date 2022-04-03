@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 70px;
-    background-color:blueviolet;
+    background-color:black;
     align-items: center;
     padding: 10px;
     
@@ -126,6 +126,7 @@ p{
     justify-content: space-around;
     height: 300px;
     align-items: center;
+    background-color: #24303c;
     
 }
 .redes img{
@@ -137,9 +138,13 @@ footer{
     height: 100px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 footer h4{
     color: white
+}
+small{
+    color: #fff;
 }
 .contacto{
     display: block;

@@ -4,33 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/estilo.cssg">
+    <link rel="stylesheet" href="../estilos/estilo.css">
     <title>contacto</title>
 </head>
-<body>
+<body class="contact">
     <header>
         <div class="logo">
-            <img src="imagenes/logo coder.jpeg" alt="">
+            <img src="../imagenes/logo coder.jpeg" alt="">
         </div>
         <nav>
-            <a href="paginas/index.html">inicio</a>
-            <a href="paginas/sobrenosotros.html">sobre nosotros</a>
-            <a href="paginas/serviciotecnico.html">servicio tecnico</a>
-            <a href="paginas/creatucuenta.html">crea tu cuenta</a>
+            <a href="../index.html">inicio</a>
+            <a href="../paginas/nosotros.html">sobre nosotros</a>
+            <a href="../paginas/serviciotecnico.html">servicio tecnico</a>
+            <a href="../paginas/creatucuenta.html">crea tu cuenta</a>
         </nav>
     </header>
+    <div class="content">
 
+        <h1 class="logo">Contact <span>Us</span></h1>
 
-    <section class="contacto">
-        <h2>Corrientes 1128 - local 1</h2>
-        <h2>341-6862580</h2>
-        <h2>topcelltienda@gmail.com</h2>
-        <form class="formulario">
-            <textarea name="" id="" cols="30" rows="10" placeholder="deje su mensaje"></textarea>
-        </form>
-        <input class="botoncontacto" type="submit" value="enviar">
-    </section>  
-    
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3 class="contactoo">Contacto</h3>
+                <form action="">
+                    <p>
+                        <label>nombre</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>telefono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>direccion</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>mas informacion</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i>Corrientes 1128</li>
+                    <li><i class="fas fa-phone"></i>341-6862580</li>
+                    <li><i class="fas fa-envelope-open-text"></i>topcelltienda@gmail.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
+                <p>Company.com</p>
+            </div>
+        </div>
+
+    </div>
+
     
     
     
@@ -44,8 +81,8 @@
     
     
     <div class="redes">
-        <img src="imagenes/logoface.png" alt="facebook.com" title="facebook.com">
-        <img src="imagenes/logoinsta.jpg" alt="instagram.com" title="instagram.com">
+        <img src="../imagenes/logoface.png" alt="facebook.com" title="facebook.com">
+        <img src="../imagenes/logoinsta.jpg" alt="instagram.com" title="instagram.com">
     </div>
     <footer>
         <h4>Topcell 2022 - Todos los derechos reservados</h4>

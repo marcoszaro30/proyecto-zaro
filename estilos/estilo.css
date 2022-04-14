@@ -12,7 +12,7 @@ header{
     background-color:black;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #1f53c5;
     top: 0;
     width: 100%;
     box-shadow: 3px 3px 10px;
@@ -33,7 +33,7 @@ nav a{
     padding: 10px;
 }
 nav a:hover{
-    color: rgb(134, 131, 131);
+    color: #1f53c5;
 }
 nav{
     margin-right: 50px;
@@ -137,7 +137,7 @@ footer{
     height: 100px;
     display: flex;
     justify-content: center;
-    border-top: 1px solid grey;
+    border-top: 1px solid #1f53c5;
 }
 footer h4{
     color: white

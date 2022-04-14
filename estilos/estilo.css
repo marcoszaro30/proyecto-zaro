@@ -2,9 +2,7 @@ body{
     font-family: sans-serif;
     margin: 0px;
     padding: 0px;
-
 }
-
 header{
     display: flex;
     justify-content: space-between;
@@ -16,13 +14,10 @@ header{
     top: 0;
     width: 100%;
     box-shadow: 3px 3px 10px;
-    
-    
 }
 .logo img{
     height: 50px;
     width: 300px;
-
 }
 a{
     text-decoration: none;
@@ -41,7 +36,6 @@ nav{
 h1{
     text-align: center;
     padding-top: 100px;
-    
 }
 /*tarjetas*/
 .container-card{
@@ -110,7 +104,6 @@ h1{
 section{
     display: flex;
     justify-content: space-around;
-    
 }
 main p{
     padding-left: 20px;
@@ -126,7 +119,6 @@ p{
     justify-content: space-around;
     height: 300px;
     align-items: center;
-    
 }
 .redes img{
     width: 100px;
@@ -153,18 +145,16 @@ footer h4{
     display: table-caption;
     padding-left: 550px;
     padding-bottom: 30px;
-
 }
  form{
     padding-bottom: 10px;
-
 }
 iframe{
     width: 100%;
 }
 .quienesSomos{
     padding: 50px 200px 50px 200px;
-    background-color: #24303c;
+    background-color: #222222;
     color: white;
     height: 500px;
 }
@@ -172,11 +162,10 @@ iframe{
     padding-top: 30px;
     text-align: center;
     line-height: 30px;
-
 }
 .cuenta{
     width: 400px;
-    background-color: #24303c;
+    background-color: #222222;
     margin: auto;
     margin-top: 200px;
     padding: 30px;
@@ -192,26 +181,22 @@ iframe{
 }
 .controles{
     width: 100%;
-    background: #24303c;
+    background: #222222;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 4px;
     border: 1px solid #1f53c5;
-    
     color: white;
-
 }
 .cuenta p{
     height: 40px;
     text-align: center;
     font-size: 18px;
 }
-
 .cuenta a{
     color: white;
     text-decoration: none;
 }
-
 .cuenta a:hover {
     color: white;
     text-decoration: underline;
@@ -224,23 +209,18 @@ iframe{
     color: white;
     margin: 16px 0;
     font-size: 16px;
-
-
 }
-
 .servicio{
     padding: 100px 200px 50px 200px;
-    background-color: #24303c;
+    background-color: #222222;
     color: white;
 }
 .servicio p{
     text-align: center;
-    
 }
 .tecnico{
     padding-top: 30px;
     line-height: 30px;
-    
 }
 .trabajos{
     text-align: center;
@@ -280,8 +260,6 @@ iframe{
     border: 1px solid #1f53c5;
     color: white;
     display: inline-grid;
-    
-    
 }
 .botoncontacto{
     width: 100%;
@@ -294,7 +272,6 @@ iframe{
 }
 textarea{
     background-color: #24303c;
-
 }
 
 /* media querys*/

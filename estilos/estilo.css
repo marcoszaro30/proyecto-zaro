@@ -175,7 +175,7 @@ iframe{
     border-radius: 4px;
     display: block;
     color: white;
-    box-shadow: 3px 3px 10px #000; 
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
 }
 .cuenta h4{
     font-size: 22px;

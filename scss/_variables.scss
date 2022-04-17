@@ -1,0 +1,9 @@
+$colorprincipal: #000;
+$colorbordes: rosario;
+header{
+    @if $colorbordes == rosario{
+        border-bottom:1px solid #1f53c5;
+    } @else {
+        border-bottom: 1px solid green;
+    }
+}

@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
     margin: 0px;
     padding: 0px;
-    background-color: black;
+    background-color: $colorprincipal;
 }
 .container-card{
 	width: 100%;
@@ -83,7 +83,7 @@ p{
     }
 }
 footer{
-    background-color:black ;
+    background-color:$colorprincipal;
     height: 100px;
     display: flex;
     justify-content: center;

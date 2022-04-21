@@ -11,6 +11,12 @@
     header{
         height: 300px;
     }
+    .container_footer{
+        flex-wrap: wrap;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
 }
 @media(min-width: 700px) {
     body {

@@ -8,10 +8,14 @@
     a {
         display: block;
     }
-    header{
-        height: 300px;
-        flex-wrap: wrap;
+    .quienesSomos{
+        p{
+            width: 100%;
+        }
     }
+    /*header{
+       
+    }*/ 
     .container_footer{
         flex-wrap: wrap;
     }

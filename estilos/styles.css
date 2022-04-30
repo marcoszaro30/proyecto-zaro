@@ -178,7 +178,7 @@ h1 {
   font-size: 16px; }
 
 .quienesSomos {
-  padding: 50px 200px 50px 200px;
+  /*padding: 50px 200px 50px 200px;*/
   background-color: #222222;
   color: white;
   height: 500px; }
@@ -196,7 +196,8 @@ h1 {
 
 .tecnico {
   padding-top: 30px;
-  line-height: 30px; }
+  line-height: 30px;
+  text-align: center; }
 
 .trabajos {
   text-align: center; }
@@ -221,6 +222,7 @@ h1 {
   overflow: hidden; }
   .reparaciones .tecnico2 {
     width: 100%;
+    max-width: 800px;
     border-radius: 10px;
     height: 450px;
     cursor: pointer; }
@@ -403,9 +405,11 @@ footer {
     margin: 15px; }
   a {
     display: block; }
-  header {
-    height: 300px;
-    flex-wrap: wrap; }
+  .quienesSomos p {
+    width: 100%; }
+  /*header{
+       
+    }*/
   .container_footer {
     flex-wrap: wrap; }
   footer {

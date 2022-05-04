@@ -3,7 +3,6 @@ header {
 
 header {
   display: flex;
-  justify-content: space-between;
   height: 70px;
   background-color: #000;
   align-items: center;
@@ -407,9 +406,8 @@ footer {
     display: block; }
   .quienesSomos p {
     width: 100%; }
-  /*header{
-       
-    }*/
+  header {
+    display: flex; }
   .container_footer {
     flex-wrap: wrap; }
   footer {

@@ -13,9 +13,10 @@
             width: 100%;
         }
     }
-    /*header{
-       
-    }*/ 
+    header{
+       display: flex;
+
+    } 
     .container_footer{
         flex-wrap: wrap;
     }

@@ -1,9 +1,8 @@
 header {
   border-bottom: 1px solid #1f53c5; }
 
-header {
+.header {
   display: flex;
-  height: 70px;
   background-color: #000;
   align-items: center;
   padding: 10px;
@@ -177,14 +176,30 @@ h1 {
   font-size: 16px; }
 
 .quienesSomos {
-  /*padding: 50px 200px 50px 200px;*/
   background-color: #222222;
-  color: white;
-  height: 500px; }
+  color: white; }
   .quienesSomos p {
     padding-top: 30px;
     text-align: center;
     line-height: 30px; }
+
+.informatica1 {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto; }
+
+.informatica {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  text-align: center; }
+
+.imagen {
+  border-radius: 10px;
+  width: 50%;
+  height: 100%; }
 
 .servicio {
   /*padding: 100px 200px 50px 200px;*/
@@ -411,7 +426,9 @@ footer {
   .container_footer {
     flex-wrap: wrap; }
   footer {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .informatica1 {
+    flex-direction: column; } }
 
 @media (min-width: 700px) {
   body {
